@@ -32,7 +32,7 @@ export const productData: Productdata[] = [
     name: 'Bobble Hat',
     base_price: 12.99,
     base_image: 'bobblehat_white.png',
-    description: 'A lovely picture of a bobble hat.',
+    description: 'A lovely bobble hat.',
     category: 'hats',
     styles: [
       {
@@ -70,7 +70,7 @@ export const productData: Productdata[] = [
     name: 'Striped Hat',
     base_price: 1.99,
     base_image: 'stripedhat_red.png',
-    description: 'A lovely picture of a striped hat.',
+    description: 'Incredibly fashionable striped hat.',
     category: 'hats',
     styles: [
       {
@@ -139,7 +139,7 @@ export const productData: Productdata[] = [
     name: 'Hat Hat',
     base_price: 89.95,
     base_image: 'hathat_white.png',
-    description: 'A lovely picture of a hat on a hat.',
+    description: 'Twice the cool! A hat on a hat.',
     category: 'hats',
     styles: [
       {
@@ -173,7 +173,7 @@ export const productData: Productdata[] = [
     name: 'Gloves',
     base_price: 5.98,
     base_image: 'gloves_white.png',
-    description: 'Gloves more than one, two in fact.',
+    description: 'Two whole gloves!',
     category: 'gloves',
     styles: [
       {
