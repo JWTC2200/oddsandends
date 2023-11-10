@@ -26,6 +26,7 @@ img {
 
 .style_selector {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -69,4 +70,10 @@ img {
 
 .buy_button {
   padding: 2px 4px;
+}
+
+@media (max-width: 640px) {
+  .product_detail {
+    flex-direction: column;
+  }
 }

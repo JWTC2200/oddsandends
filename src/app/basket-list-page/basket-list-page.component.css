@@ -14,3 +14,9 @@
 .basket_divider_right {
   width: 40%;
 }
+
+@media (max-width: 640px) {
+  .basket_divider {
+    flex-direction: column;
+  }
+}
