@@ -1,0 +1,16 @@
+<nav>
+  <a routerLink="/products"><h1>Odds & Ends</h1></a>
+  <ul>
+    <li class="basket_li">
+      <a routerLink="/basket">Basket</a>
+      <img class="icon" src="assets/svg/basket_icon.svg" />
+      <p *ngIf="basketitemsnumber" class="basket_items_icon">
+        {{ basketitemsnumber }}
+      </p>
+    </li>
+    <li>
+      <a routerLink="/profile">Profile</a>
+      <img class="icon" src="assets/svg/profile_icon.svg" />
+    </li>
+  </ul>
+</nav>

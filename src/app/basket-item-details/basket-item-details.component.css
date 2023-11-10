@@ -1,0 +1,27 @@
+img {
+  height: 120px;
+  width: 120px;
+  border: 2px solid grey;
+}
+
+img:hover {
+  border: 2px solid black;
+}
+
+p {
+  font-size: 1rem;
+}
+
+button {
+  padding: 0 2px;
+}
+
+.basket_item {
+  padding-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.basket_item_link:hover {
+  color: red;
+}

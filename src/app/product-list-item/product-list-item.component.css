@@ -1,0 +1,13 @@
+.product_link:hover {
+  color: red;
+}
+
+.product_image {
+  height: 200px;
+  width: 200px;
+  border: 4px solid grey;
+}
+
+.product_image:hover {
+  opacity: 0.5;
+}

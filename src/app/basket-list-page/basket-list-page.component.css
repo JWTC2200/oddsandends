@@ -1,0 +1,16 @@
+.basket_divider {
+  display: flex;
+}
+
+.basket_divider_left,
+.basket_divider_right {
+  padding: 1rem;
+}
+
+.basket_divider_left {
+  width: 60%;
+}
+
+.basket_divider_right {
+  width: 40%;
+}

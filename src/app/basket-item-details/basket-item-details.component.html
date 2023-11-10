@@ -1,0 +1,19 @@
+<div class="basket_item">
+  <a
+    [routerLink]="['/products/', product.id]"
+    [queryParams]="{ style: product.style.color }"
+  >
+    <img src="{{ '/assets/images/' + product.style.image }}" />
+  </a>
+  <div class="basket_item_details">
+    <a
+      [routerLink]="['/products/', product.id]"
+      [queryParams]="{ style: product.style.color }"
+      class="basket_item_link"
+      ><h3>{{ product.name | titlecase }}</h3></a
+    >
+    <p>Color: {{ product.style.color }}</p>
+    <p>Quantity: {{ product.in_basket }}</p>
+    <button type="button" (click)="removeItem(product)">Remove</button>
+  </div>
+</div>

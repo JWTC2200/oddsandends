@@ -1,0 +1,34 @@
+.category_selector {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.category_button {
+  border: #111827;
+  background: #e4e4e7;
+  font-size: inherit;
+  padding: 0.2em 1em;
+  border-radius: 10%;
+}
+
+.category_button:hover {
+  /* color: red; */
+  box-shadow: 0 0 4px 2px #1f2937;
+}
+
+.category_button:active {
+  color: red;
+  transform: scale(1.1);
+}
+
+.product_hero {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

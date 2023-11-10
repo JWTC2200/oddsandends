@@ -1,0 +1,18 @@
+<div class="category_selector">
+  <button type="button" class="category_button" (click)="changeCategory('')">
+    All
+  </button>
+  <button
+    *ngFor="let category of categories"
+    class="category_button"
+    (click)="changeCategory(category)"
+  >
+    {{ category | titlecase }}
+  </button>
+</div>
+<div class="product_hero">
+  <app-product-list-item
+    *ngFor="let product of productdata"
+    [product]="product"
+  ></app-product-list-item>
+</div>

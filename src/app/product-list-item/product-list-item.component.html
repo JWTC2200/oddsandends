@@ -1,0 +1,13 @@
+<div>
+  <a routerLink="{{ '/products/' + product.id }}" class="product_link"
+    ><h2>{{ product.name }}</h2></a
+  >
+  <a routerLink="{{ '/products/' + product.id }}"
+    ><img
+      src="{{ 'assets/images/' + product.base_image }}"
+      class="product_image"
+      alt="{{ product.name + ' image' }}"
+  /></a>
+
+  <h3>{{ product.base_price | currency : "GBP" }}</h3>
+</div>

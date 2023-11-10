@@ -1,0 +1,51 @@
+nav {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e7e5e4;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 0.5em;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+a:hover,
+a:active {
+  color: red;
+}
+
+.icon {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.basket_li {
+  position: relative;
+}
+
+.basket_items_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  font-size: 1rem;
+  color: white;
+  background: red;
+  opacity: 90%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(10%, 10%);
+}

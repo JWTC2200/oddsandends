@@ -1,0 +1,34 @@
+<div *ngIf="product" class="product_container">
+  <h2>{{ product.name }}</h2>
+  <div class="product_detail">
+    <img src="{{ 'assets/images/' + style?.image }}" />
+    <div>
+      <h3>Styles:</h3>
+      <div class="style_selector">
+        <button
+          *ngFor="let style of product.styles"
+          class="style_box_outer"
+          [ngClass]="{ out_of_stock: !style.stock }"
+        >
+          <div
+            class="style_box"
+            [style.background-color]="style.hex_code"
+            (click)="changeStyle(style.hex_code)"
+          ></div>
+        </button>
+      </div>
+      <p>{{ style?.color | titlecase }}</p>
+      <p
+        class="product_price"
+        [ngClass]="{ out_of_stock_price: !style?.stock }"
+      >
+        {{ style?.price | currency : "GBP" }}
+      </p>
+      <p>{{ product.description }}</p>
+      <button type="button" (click)="buyitem()" class="buy_button">
+        Add to cart
+      </button>
+      <p class="warning" *ngIf="warning">{{ warning }}</p>
+    </div>
+  </div>
+</div>

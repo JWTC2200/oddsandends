@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  background: #f8fafc;
+  /* color: #27272a; */
+}
+
+h1,
+h2,
+strong {
+  font-weight: 700;
+}
+
+main {
+  padding: 0 2rem;
+  margin: 0 auto;
+  max-width: 1080px;
+  min-height: 100vh;
+  background: #f4f4f5;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
